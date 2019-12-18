@@ -55,6 +55,8 @@ QFileDialog|getOpenFileNames()|获得用户选择的文件名列表
                                 );
 ```
         
+        
+        
 > getOpenFileNames()                 //获得用户选择的文件名列表
 
 ```     
@@ -72,6 +74,8 @@ QFileDialog|getOpenFileNames()|获得用户选择的文件名列表
 相关类|静态函数|函数说明
 --|:--:|---:
 QColorDialog|getColor()|获得用户选择的颜色值
+
+
 **用例**    
 > getColor()
 
@@ -87,6 +91,8 @@ QColorDialog|getColor()|获得用户选择的颜色值
 相关类|静态函数|函数说明
 --|:--:|---:
 QFontDialog|getFont()|获得用户选择的字体
+
+
 **用例**    
 > getFont()
 
