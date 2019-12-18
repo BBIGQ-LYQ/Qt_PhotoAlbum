@@ -32,7 +32,9 @@ QMessageBox|QMessageBox::abouutQt|abouut Qt 消息框
                     // should never be reached
                     break;
               }
-        ```
+```
+
+
 ----
 
 
@@ -45,24 +47,25 @@ QFileDialog|getOpenFileNames()|获得用户选择的文件名列表
         
 **用例**    
 > getOpenFileNames
-        ```
+```
         QString fileName = QFileDialog::getOpenFileName(this,                   //父类的指针
-                                        tr("Open File"),                        //打开窗口的标题
-                                        "/home/bbigq",                          //打开默认路径
-                                        tr("Images (*.png *.xpm *.jpeg *.bmp)") //文件过滤器 这里只能打开*.png *.xpm *.jpg
-                                        );
-        ```
+                                tr("Open File"),                        //打开窗口的标题
+                                "/home/bbigq",                          //打开默认路径
+                                tr("Images (*.png *.xpm *.jpeg *.bmp)") //文件过滤器 这里只能打开*.png *.xpm *.jpg
+                                );
+```
         
 > getOpenFileNames()                 //获得用户选择的文件名列表
 
-        ```     
-                
-            QStringList temp = QFileDialog::getOpenFileNames(
-                                        this,                                   //父类的指针
-                                        "Select one or more files to open",     //打开窗口的标题
-                                        "/home/bbigq/workspace/QT",             //获取的路径
-                                        "Anyfile (*)");                         //获取所有文件
-        ```
+```     
+        
+        QStringList temp = QFileDialog::getOpenFileNames(
+                                this,                                   //父类的指针
+                                "Select one or more files to open",     //打开窗口的标题
+                                "/home/bbigq/workspace/QT",             //获取的路径
+                                "Anyfile (*)");                         //获取所有文件
+```
+
 ----
 
 
